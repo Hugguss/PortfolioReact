@@ -72,9 +72,7 @@ export default function News () {
           </section>
           <section>
             <Link to="/">
-              <a>
                 <img src="img/portfolio.png" alt="" ></img>
-              </a>
             </Link>
           </section>
         </footer>
