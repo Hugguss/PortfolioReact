@@ -4,7 +4,7 @@ import '../css/style.css';
 
 export default function Contact() {
   // Función para obtener datos iniciales desde localStorage
-  const getInitialState = (key = '') => localStorage.getItem(key);
+  const getInitialState = (key, defaultValue = '') => localStorage.getItem(key) || defaultValue;
 
   // Estados inicializados con datos persistidos en localStorage
   const [campo1, setCampo1] = useState(() => getInitialState('campo1'));
