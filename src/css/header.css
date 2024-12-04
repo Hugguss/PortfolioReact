@@ -1,0 +1,78 @@
+/* -----------------------HEADER------------------------------------------------------------ */
+header {
+  background-color: #DAFFFB;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Arial ;
+  justify-content: space-around;
+  margin: auto;
+  height: 15vh;
+} 
+.secheader1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+}
+header img {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.secheader2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+}
+.active-link {
+  background-color: #31b4b4;
+  box-shadow: 0px 15px 10px #608d8d;
+  transform: scale(1.2);
+  transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+
+}
+.active-link > a{
+color: white;
+transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+
+}
+
+header span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 40px;
+  background-color: #98c8c8;
+  transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+header span:hover {
+  box-shadow: 0px 15px 10px #608d8d;
+  transform: scale(1.2);
+  font-weight: bold;
+  transition: background-color 0.5s ease-in-out , transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+a {
+  padding: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.desplegable {
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+}
+.desplegable i {
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  background-color: #98c8c8;
+  padding: 10px;
+}

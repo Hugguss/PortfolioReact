@@ -1,0 +1,302 @@
+/* SWEET ALERTS (alertas de los botones)-----------------------------------------*/
+.swal2-title {
+    font-family: 'Montserrat', Arial !important;
+    font-size: 40px !important;
+  }
+  
+  .swal2-confirm {
+    font-family: 'Montserrat', Arial !important;
+    background-color: rgb(40, 167, 29) !important;
+  }
+  .swal2-deny {
+    font-family: 'Montserrat', Arial !important;
+    background-color: rgb(230, 54, 42) !important;
+  
+  }
+  /* --------------------------------------------------- */
+  
+  /* RESPONSIVE-----------------------------------------*/
+  @media (max-width:1200px) {
+    .page-header {
+      flex-direction: column;
+      gap: 5px;
+    }
+    #about {
+      flex-direction: column;
+    }
+    .about-text{
+      font-family: calibri;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+    }
+    .about-text {
+      width: 100%;
+    }
+    .about-text h1, h2 { 
+      text-align: center;
+      font-size: 60px;
+      width: 100%;
+    }
+    .about-text h2 {
+      font-size: 30px
+    }
+    .about-text p {
+      font-size: 16px;
+    }
+    .about-model {
+      width: 75%;
+      height: 350px;
+      
+  
+    }
+    .about-model img {
+      filter: none;
+      height: 300px;
+    }
+    .secheader2 span {
+      height: 25px;
+    }
+  }
+  @media (max-width: 768px) {
+    .secheader2{
+      display: none;
+      width: 50%;
+      border-radius: 20px;
+      overflow: hidden;
+      transition: 0.5s;
+    }
+    .page-header {
+      flex-direction: column;
+      gap: 5px 5px;
+      padding: 5px;
+    }
+    .secheader2 span {
+      width: 100%;
+      margin: 0;
+      height: auto;
+      padding: 0;
+    }
+    .desplegable {
+      transition: 0.5s;
+      width: 20%;
+      margin: 0;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+      display: flex;
+    }
+    .desplegable i{
+      width: 20%;
+      display: flex;
+      transition: 1s;
+      justify-content: center;
+      align-items: center;
+    }
+    .desplegable i:hover{
+      justify-content: center;
+      transition: 1s;
+      align-items: center;
+      width: 100%;
+    }
+    .secheader2 span:hover + i{
+      i {
+        width: 100%;
+      }
+    }
+    .about-model {
+      display: none;
+    }
+    .lenguajes p {
+      font-size: 30px;
+      text-align: center;
+    }
+    .container {
+      width: 90%;
+      padding: 2%;
+      margin-top: 20px;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      gap: 10px 20px; 
+      grid-template-areas: 
+        "block1 block2"
+        "text1 text2" 
+        "block3 block4"
+        "text3 text4";  
+    }
+    .container img {
+      height: 150px;
+    }
+    .container h1 {
+      font-size: 20px;
+    }
+    footer span{
+      width: 1px;
+    }
+    .card2 {
+      display: flex;
+      flex-direction: row;
+    }
+    .card2 .card2_1 h3 {
+      word-wrap: break-word;
+    }
+    .card2 .card2_2 {
+      margin: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card2 article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+      .info1 h2 {
+      font-size: 20px;
+    }
+  
+    .desplegable:hover + .secheader2,.secheader2:hover{
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top: 89px;
+      width: 145px;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    header img {
+      height: 40px;
+    }
+  
+    
+    .swal2-title {
+      padding-left: 0;
+    }
+    .swal2-container {
+      padding: 0;
+    }
+    .swal2-popup {
+      width: 80%;
+    }
+    .proyectos {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      padding-top: 50px;
+    }
+    .proyectos section {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .proyectos section article {
+      display: flex;
+      width: 90%;
+      flex-direction: column;
+      height: 25vh;
+    }
+    .proyectos .hr_2 {
+      padding: 0;
+      margin: 2px;
+    }
+    .proyectos .proj_marvel, .proj_pokes, .proj_yves, .proj_marvel {
+      background-size: 70%;
+      width: 100%;
+    }
+    .proyectos h1 {
+      padding: 0;
+      font-size: 15px;
+    }
+    .proyectos h2 {
+      font-size: 30px;
+      padding: 0;
+    }
+    .proyectos div b {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      font-size: 1rem;
+    }
+    .info1 {
+      width: 92%;
+      font-family: 'Montserrat', Arial;
+      height: 100vh;
+      padding: 4%;
+      padding-top: 100px;
+      background-color: #ADFFFB;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(4, 20%);
+      grid-template-rows: 5em 10em 10em 10em;
+      gap: 10px 10px; 
+      grid-template-areas: 
+        "grid_1 grid_2 grid_2 grid_2 "
+        "grid_3 grid_3 grid_3 grid_5"
+        "grid_3 grid_3 grid_3 grid_5"  
+        "grid_3 grid_3 grid_3 grid_5";  
+    }
+    .grid_1 {
+      height: 5em;
+      font-size: 15px
+    }
+    .grid_2 {
+      height: 5em;
+    }
+    .grid_3 {
+      height: 30em;
+    }
+    .grid_4 {
+      display: none;
+    }
+    .grid_5 {
+      height: 30em;
+    }
+    .grid_5 a {
+      overflow: visible;
+      font-size: 20px;
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+    }
+    .animacion {
+      animation: desplazamiento 5s linear infinite;
+    }
+    @keyframes desplazamiento {
+      0% {
+        transform: translateY(-100%);
+      }
+      100% {
+        transform: translateY(100%);
+      }
+    }
+    .grid_1 i {
+      font-size: 50px;
+    }
+    .grid_2 {
+      height: 5em;
+      font-size: 15px;
+    }
+    .info1 dl {
+      font-size: 13px;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  
+    }
+    .info1 dt, dd {
+      width: 50%;
+    }
+    .card2_1 {
+      display: none;
+    }
+  }
+  

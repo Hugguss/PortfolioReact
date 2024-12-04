@@ -1,0 +1,57 @@
+{
+    "social": [
+        {
+            "name": "Twitter", 
+            "url": "https://twitter.com/",
+            "icon": "twitter"
+        },
+        { 
+            "name": "Facebook", 
+            "url": "https://facebook.com/",
+            "icon": "facebook" 
+        },
+        { 
+            "name": "LinkedIn", 
+            "url": "https://linkedin.com/",
+            "icon": "linkedin" 
+        },
+        { 
+            "name": "Instagram", 
+            "url": "https://instagram.com/",
+            "icon": "instagram" 
+        },
+        { 
+            "name": "YouTube", 
+            "url": "https://youtube.com/",
+            "icon": "youtube" 
+        },
+        { 
+            "name": "GitHub", 
+            "url": "https://github.com/",
+            "icon": "github" 
+        }
+    ],
+    "lenguajes": [
+        {
+            "name":"HTML",
+            "img":"g1.jpg",
+            "style":"block1"
+        },
+        {
+            "name":"JS",
+            "img":"g2.jpg",
+            "style":"block2"
+        },
+        {
+            "name":"CSS",
+            "img":"g3.jpg",
+            "style":"block3"
+        },
+        {
+            "name":"PHP",
+            "img":"g4.jpg",
+            "style":"block4"
+        }
+    ]
+
+}

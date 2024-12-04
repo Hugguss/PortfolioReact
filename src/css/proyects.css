@@ -1,0 +1,101 @@
+/* -----------------------SECTION PROYECTOS---------------------- */
+
+.proyectos {
+  display: flex;
+  font-family: 'Montserrat', Arial;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0% 0 3% 0%; */
+  position:-ms-page;
+  width: 100%;
+  height: 85vh;
+  background-color: #46a7ad;
+}
+.proyectos h2 {
+  font-size: 50px;
+  margin: 10px;
+  padding-bottom: 50px;
+  font-weight: 950;
+  text-transform: uppercase;
+  color: #009073;
+}
+.proyectos section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
+.proyectos article {
+  width: 25%;
+  background: radial-gradient(#479b95,#46a7ad);
+  border-radius: 20px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+  box-shadow: #64CCC5 0px 0px 50px 10px;
+}
+.proyectos h1 {
+  margin: 0;
+  padding: 15px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #64CCC5;
+  text-transform: uppercase;
+  transition: 0.5s ;
+}
+.proyectos h1:hover {
+  transition: 0.5s;
+  color: #7ffaf2;
+}
+.proyectos a {
+  text-decoration: none;
+  padding: 0;
+}
+
+  .proj_marvel, .proj_pokes, .proj_yves {
+  content: " ";
+  background-repeat: no-repeat;
+  display: flex;
+  min-height: 200px;
+  max-height: 400px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../public/img/Preview1.png);
+  background-attachment:local;
+  background-size:100%;
+  background-position: center center;
+  filter: none;
+  transition: 0.5s ease-in-out all;
+}
+.proyectos b {
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  text-shadow: black 1px 1px;
+  color: white;
+  width: 80%;
+  min-height: 1cqmin;
+  padding: 3%;
+  border-radius: 20px;
+  font-size: 1rem;
+  transition: 0.5s ease-in-out all;
+}
+.proj_pokes {
+  background-image: url(../../public/img/Preview2.png);
+}
+.proj_yves {
+  background-image: url(../../public/img/Preview3.png);
+}
+.proj_marvel b:hover, .proj_pokes b:hover, .proj_yves b:hover  {
+  background-color: #51c4cad2;
+  opacity: 1;
+}

@@ -1,0 +1,133 @@
+/* -----------------------SECTION LENGUAJES---------------------- */
+
+.lenguajes {
+    overflow: hidden;
+    height: 85vh;
+    font-family: 'Montserrat', Arial;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #176B87;
+  }
+  .lenguajes p{
+    font-size: 50px;
+    margin: 10px;
+    font-weight: 950;
+    color: #64CCC5;
+  
+  }
+  .lenguajes #hrs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+  }
+  .lenguajes p:hover + article {
+    .hr_2 {
+      transition: 0.5s ease-in-out all;
+      width: 100%;
+    };
+  }
+  .lenguajes .hr_2 {
+    transition: 0.5s ease-in-out all;
+    background-color: #04364A;
+    border: 1px solid #04364A;
+    border-radius: 20px;
+    width: 150px;
+    height: 12px;
+    margin: 0px;
+    transition: 0.5s;
+  }
+  .container {
+    width: 90%;
+    padding: 2%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 15em 4em;
+    gap: 10px 10px; 
+    grid-template-areas: 
+      "block1 block2 block3 block4 "
+      "text1 text2 text3 text4 ";  
+  }
+  .container img {
+    height: 200px;
+    transition: 0.3s linear;
+    border-radius: 15px;
+  }
+  .container img:hover {
+    transition: 0.3s linear;
+    transform: rotatey(180deg); 
+  }
+  .container h1{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  #block1 {
+    grid-area: block1;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #block2 {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: block2;
+  }
+  #block3 {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: block3;
+  }
+  #block4 {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    grid-area: block4;
+  }
+  #text1 {
+    grid-area: text1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+  }
+  #text2 {
+    grid-area: text2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+  }
+  #text3 {
+    grid-area: text3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+  }
+  #text4 {
+    grid-area: text4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+  }

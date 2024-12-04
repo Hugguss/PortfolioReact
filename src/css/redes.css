@@ -1,0 +1,74 @@
+.redes a {
+    padding: 0;
+    text-decoration: none;
+}
+.redes {
+    background-color: #032431;
+    height: 85vh;
+    font-family: 'Montserrat', Arial;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont_social {
+    box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.222);
+    width: 70%;
+    height: 40%;
+    color: white;
+    border-radius: 30px;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.cont_social h1 {
+    padding: 0;
+    margin: 0;
+}
+.redes h2 {
+    padding: 1%;
+    color: #096d949e;
+    text-align: center;
+    box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.318);
+    align-content: center;
+    font-size: 40px;
+    font-weight:800;
+    border-radius: 20px;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    width: 55%;
+}
+.card_social {
+    text-decoration: none;
+    color: white;
+    background-color: #032431;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 13%;
+    height: 85%;
+    transition:transform 0.5s ease , border-radius 0.5s ease, box-shadow 0.5s ease;
+}
+.card_social:hover {
+    border-radius: 80% / 50%;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 5px #98c8c85e;
+    transition:transform 0.5s ease , border-radius 0.5s ease, box-shadow 0.5s ease;
+}
+.redes i {
+    color: white;
+    font-size: 40px;
+}
+.redes p {
+    padding: 0;
+    margin: 0;
+    color: white;
+
+}

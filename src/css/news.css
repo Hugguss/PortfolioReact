@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+.news-container {
+  /* Todas las reglas generales van dentro de aquí */
+}
+
+.news-container * {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+}
+
+.news-container header, 
+.news-container main, 
+.news-container footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  width: 90%;
+}
+/* ----------------HEADER------------------------- */
+.news-container header {
+  background-color: #176b87;
+}
+.news-container header a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.news-container header img {
+  width: 35%;
+  transition: 0.5s all;
+}
+.news-container header img:hover {
+  transition: 0.5s all;
+  box-shadow: rgba(0, 0, 0, 0.462) 0px 0px 10px 5px;
+  border-radius: 20px;
+}
+.news-container header h1, main h1 {
+  font-size: 40px ;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 10px;
+  color: #bee1de;
+  text-shadow: black 1px 1px;
+  text-transform: uppercase;
+}
+/* ----------------MAIN------------------------- */
+.news-container main {
+  background-color: #2b577a;
+  color: white;
+}
+.news-container main .img1 {
+  width: 70%;
+}
+.news-container h4 {
+  width: 75%;
+  text-align: center;
+}
+.news-container hr {
+  width: 95%;
+  height: 5px;
+  border-radius: 20px;
+  background-color: white;
+  border: 0px solid ;
+}
+.news-container article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.news-container article img {
+  height: 175px;
+  border-radius: 20px;
+  
+}
+
+.news-container article div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.news-container article p {
+  text-align: center;
+  width: 75%;
+}
+.news-container article button {
+  background-color: #49abaf;
+  outline: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 0px;
+  width: 25%;
+  height: 30px;
+  transition: 0.5s;
+}
+.news-container article button:hover {
+  width: 40%;
+  transform: scale(1.1);
+  box-shadow: white 0px 0px 10px 1px;
+  transition: 0.5s ;
+}
+/* ----------------FOOTER------------------------- */
+.news-container footer {
+  background-color: #021a24;
+  justify-content: space-around;
+}
+.news-container footer section {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.news-container footer .social_media a {
+  width: 50px;
+  font-size: 20px;
+  text-align: center;
+  transition: 0.5s all;
+}
+.news-container footer img {
+  height: 40px;
+  transition: 0.5s all;
+}
+.news-container footer img:hover {
+  transition: 0.5s all;
+  box-shadow: rgba(161, 158, 158, 0.462) 0px 0px 10px 5px;
+  border-radius: 20px;
+}
+.news-container footer span {
+  width: 33%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.news-container footer .text span:hover  {
+  transition: 0.5s all;
+  color: rgb(161, 161, 245);
+  cursor: pointer;
+
+}
+@media (max-width: 1440px) {
+  .news-container .project_2{
+
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .news-container article div {
+    width: 75%;
+  }
+  .news-container article div p {
+    width: 100%;
+  }
+
+}
+@media (max-width: 768px) {
+  .news-container body {
+    width: 75%;
+  }
+  .news-container article img {
+    height: auto;
+    width: 100%;
+  }
+  .news-container header h1, .news-container main h1 {
+    font-size: 20px;
+  }
+  .news-container footer .text {
+    display: flex;
+    flex-direction: row;
+  }
+}
